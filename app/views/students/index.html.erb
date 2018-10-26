@@ -8,8 +8,8 @@
 
 <strong>Students:</strong><br>
 <ul>
-  <% @figure.titles.each do |title| %>
-  <li><%= title.name %></li>
+  <% @students.each do |s| %>
+  <li><%= s.firstname %></li>
   <% end %>
 </ul>
 <br> <br>
